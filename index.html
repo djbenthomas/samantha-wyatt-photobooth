@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Samantha &amp; Wyatt — Photo Booth Fun | AS·U·LIKE·IT Entertainment</title>
+<meta name="description" content="Relive the fun from Samantha &amp; Wyatt's wedding photo booth — 10.10.2026. Photos by AS·U·LIKE·IT Entertainment.">
+<meta property="og:title" content="Samantha &amp; Wyatt — Photo Booth Fun">
+<meta property="og:description" content="Their wedding photo booth memories — 10.10.2026. Photos by AS·U·LIKE·IT Entertainment.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ivory: #FBF8F1;
+    --cream: #F5EFE3;
+    --sage: #8A9A7B;
+    --sage-deep: #6E7F5F;
+    --sage-soft: #DCE3D3;
+    --gold: #B7935A;
+    --gold-light: #D9C08A;
+    --ink: #3A3532;
+    --ink-soft: #877F76;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Jost', sans-serif;
+    background: var(--ivory);
+    color: var(--ink);
+    line-height: 1.65;
+    font-weight: 300;
+  }
+  .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+
+  /* ---------- Header ---------- */
+  header {
+    text-align: center;
+    padding: 70px 20px 44px;
+    background: linear-gradient(180deg, #FBF8F1 0%, #F5EFE3 100%);
+    position: relative;
+    overflow: hidden;
+  }
+  .leaf { position: absolute; color: var(--sage); opacity: .38; font-size: 26px; }
+  .leaf.l1 { top: 30px; left: 7%; transform: rotate(-25deg); }
+  .leaf.l2 { top: 74px; left: 13%; transform: rotate(15deg); font-size: 18px; }
+  .leaf.r1 { top: 30px; right: 7%; transform: rotate(25deg); }
+  .leaf.r2 { top: 74px; right: 13%; transform: rotate(-15deg); font-size: 18px; }
+  .kicker {
+    font-size: 14px; letter-spacing: 5px; text-transform: uppercase;
+    color: var(--gold); font-weight: 500; margin-bottom: 14px;
+  }
+  .rule {
+    width: 130px; height: 1px;
+    background: linear-gradient(90deg, transparent, var(--gold-light), transparent);
+    margin: 16px auto 0; position: relative;
+  }
+  .rule::after {
+    content: "\25C6"; position: absolute; top: -10px; left: 50%;
+    transform: translateX(-50%); color: var(--gold); font-size: 9px;
+    background: var(--ivory); padding: 0 8px;
+  }
+  h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: clamp(54px, 9.5vw, 92px);
+    font-weight: 400; color: var(--ink); line-height: 1.05;
+  }
+  h1 span { color: var(--sage-deep); }
+  .date { margin-top: 6px; font-size: 17px; font-weight: 500; color: var(--gold); letter-spacing: 6px; }
+  .brand-pill {
+    display: inline-block; margin-top: 28px; padding: 10px 26px; border-radius: 999px;
+    background: #fff; border: 1px solid var(--gold-light);
+    box-shadow: 0 4px 16px rgba(183,147,90,.14);
+    font-size: 13.5px; font-weight: 400; color: var(--ink);
+    letter-spacing: 1.5px; text-transform: uppercase;
+  }
+  .brand-pill strong { color: var(--gold); font-weight: 600; }
+
+  /* ---------- Gallery ---------- */
+  .gallery-section { padding: 64px 20px 30px; }
+  .section-title {
+    text-align: center; font-family: 'Great Vibes', cursive;
+    font-size: clamp(36px, 5.5vw, 50px); font-weight: 400;
+    color: var(--sage-deep); margin-bottom: 4px;
+  }
+  .section-sub { text-align: center; color: var(--ink-soft); font-size: 14.5px; letter-spacing: 1px; margin-bottom: 32px; }
+  .download-wrap { text-align: center; margin-bottom: 64px; }
+  .download-btn {
+    display: inline-block; padding: 14px 32px; background: #fff; color: var(--ink);
+    text-decoration: none; font-weight: 500; font-size: 14.5px; letter-spacing: 1px;
+    border-radius: 999px; border: 1px solid var(--gold-light);
+    box-shadow: 0 6px 20px rgba(183,147,90,.16);
+    transition: transform .2s, box-shadow .2s, background .2s;
+  }
+  .download-btn:hover { transform: translateY(-2px); box-shadow: 0 10px 26px rgba(183,147,90,.28); background: #FFFDF8; }
+  .download-alt {
+    display: inline-block; margin-top: 14px; font-size: 13px; color: var(--sage-deep);
+    text-decoration: none; border-bottom: 1px solid rgba(110,127,95,.4); padding-bottom: 1px;
+  }
+  .download-alt:hover { border-color: var(--sage-deep); }
+  .download-note { margin-top: 9px; font-size: 12px; color: var(--ink-soft); letter-spacing: .5px; }
+  .gallery { columns: 2; column-gap: 22px; max-width: 1040px; margin: 0 auto; }
+  @media (min-width: 700px)  { .gallery { columns: 2; column-gap: 34px; } }
+  @media (min-width: 1024px) { .gallery { columns: 3; column-gap: 48px; max-width: 1060px; } }
+  .strip {
+    display: inline-block; width: 100%; margin-bottom: 34px; break-inside: avoid;
+    cursor: pointer; border-radius: 10px; overflow: hidden; background: #fff;
+    padding: 9px 9px 32px; box-shadow: 0 6px 20px rgba(58,53,50,.10);
+    border: 1px solid #EDE6D8; transition: transform .25s ease, box-shadow .25s ease;
+    position: relative;
+  }
+  .strip:nth-child(3n) { transform: rotate(1.1deg); }
+  .strip:nth-child(3n+1) { transform: rotate(-.9deg); }
+  .strip:hover { transform: rotate(0deg) scale(1.03); box-shadow: 0 12px 30px rgba(58,53,50,.18); }
+  .strip img { width: 100%; height: auto; display: block; border-radius: 5px; background: #f2efe8; }
+  .strip .frame-num {
+    position: absolute; bottom: 9px; left: 0; right: 0; text-align: center;
+    font-size: 11.5px; color: var(--ink-soft); letter-spacing: 2px;
+  }
+  .strip .tape {
+    position: absolute; top: -8px; left: 50%;
+    transform: translateX(-50%) rotate(-3deg); width: 70px; height: 19px;
+    background: rgba(220,227,211,.75);
+    border-left: 1px dashed rgba(255,255,255,.85);
+    border-right: 1px dashed rgba(255,255,255,.85);
+    z-index: 2;
+  }
+
+  /* ---------- Lightbox ---------- */
+  .lightbox {
+    position: fixed; inset: 0; background: rgba(38,36,32,.95); display: none;
+    align-items: center; justify-content: center; z-index: 100; padding: 20px;
+  }
+  .lightbox.open { display: flex; }
+  .lightbox img {
+    max-width: min(90vw, 400px); max-height: 86vh; border-radius: 10px;
+    box-shadow: 0 20px 60px rgba(0,0,0,.55); background: #fff; padding: 10px 10px 44px;
+  }
+  .lb-btn {
+    position: absolute; background: rgba(255,255,255,.13); border: none; color: #fff;
+    font-size: 26px; width: 52px; height: 52px; border-radius: 50%; cursor: pointer;
+    transition: background .2s; display: flex; align-items: center; justify-content: center; line-height: 1;
+  }
+  .lb-btn:hover { background: rgba(255,255,255,.3); }
+  .lb-close { top: 18px; right: 18px; }
+  .lb-dl { top: 84px; right: 18px; text-decoration: none; font-size: 20px; }
+  .lb-prev { left: 14px; top: 50%; transform: translateY(-50%); }
+  .lb-next { right: 14px; top: 50%; transform: translateY(-50%); }
+  @media (min-width: 640px) { .lb-prev { left: 6%; } .lb-next { right: 6%; } }
+  .lb-caption {
+    position: absolute; bottom: 18px; left: 0; right: 0; text-align: center;
+    color: rgba(255,255,255,.85); font-size: 13px; letter-spacing: 2px;
+  }
+
+  /* ---------- Review CTA ---------- */
+  .review-section {
+    margin: 76px auto 0; max-width: 1060px; padding: 54px 24px;
+    background: linear-gradient(135deg, var(--sage-soft) 0%, #F1EADB 100%);
+    border-radius: 20px; text-align: center; border: 1px solid var(--gold-light);
+  }
+  .review-section h2 { font-family: 'Great Vibes', cursive; font-size: clamp(40px, 6vw, 54px); font-weight: 400; color: var(--ink); }
+  .review-section p { max-width: 500px; margin: 10px auto 28px; color: var(--ink-soft); font-size: 15px; }
+  .review-btn {
+    display: inline-block; padding: 15px 38px; background: var(--sage-deep); color: #fff;
+    text-decoration: none; font-weight: 500; font-size: 15px; border-radius: 999px;
+    letter-spacing: 1.5px; text-transform: uppercase;
+    box-shadow: 0 8px 24px rgba(110,127,95,.38);
+    transition: transform .2s, box-shadow .2s;
+  }
+  .review-btn:hover { transform: translateY(-2px); box-shadow: 0 12px 30px rgba(110,127,95,.48); }
+
+  /* ---------- Footer ---------- */
+  footer { text-align: center; padding: 46px 20px 56px; color: var(--ink-soft); font-size: 13.5px; letter-spacing: .8px; }
+  footer .co-name { font-weight: 500; color: var(--gold); font-size: 15px; letter-spacing: 3px; text-transform: uppercase; }
+  footer .divider { margin: 12px auto; width: 60px; height: 1px; background: var(--gold-light); }
+  footer a { color: var(--sage-deep); text-decoration: none; font-weight: 500; }
+  footer a:hover { text-decoration: underline; }
+  .loading { text-align: center; padding: 60px 0; color: var(--ink-soft); }
+</style>
+</head>
+<body>
+
+<header>
+  <span class="leaf l1">&#10087;</span><span class="leaf l2">&#10087;</span>
+  <span class="leaf r1">&#10087;</span><span class="leaf r2">&#10087;</span>
+  <div class="container">
+    <div class="kicker">The Wedding Of</div>
+    <h1>Samantha <span>&amp;</span> Wyatt</h1>
+    <div class="rule"></div>
+    <div class="date">10.10.2026</div>
+    <div class="brand-pill">Photos by <strong>AS&middot;U&middot;LIKE&middot;IT Entertainment</strong></div>
+  </div>
+</header>
+
+<section class="gallery-section">
+  <h2 class="section-title">The Photo Booth Fun</h2>
+  <p class="section-sub">Tap a strip to relive the moment</p>
+  <div class="download-wrap">
+    <a class="download-btn" href="downloads/samantha-wyatt-photo-strips.zip" download>&#128229; Download All 47 Strips</a>
+    <div class="download-note">Full quality &bull; ~12MB &bull; best on WiFi &mdash; or tap any strip and hit the download arrow</div>
+    <a class="download-alt" href="downloads/samantha-wyatt-individual-photos.zip" download>&#11015; also grab all 141 individual photos (~7MB)</a>
+  </div>
+  <div class="gallery" id="gallery">
+    <div class="loading">Gathering the memories&hellip;</div>
+  </div>
+</section>
+
+<section class="review-section" id="review">
+  <h2>Had Fun in the Booth?</h2>
+  <p>We&rsquo;d love to hear about it! A quick review helps a local, family-owned business keep doing what we love &mdash; and it means the world to us.</p>
+  <a class="review-btn" id="review-link" href="https://g.page/r/CcLgV_9vp3nnEBM/review" target="_blank" rel="noopener">Leave a Review</a>
+</section>
+
+<footer>
+  <div class="co-name">AS&middot;U&middot;LIKE&middot;IT Entertainment</div>
+  <div class="divider"></div>
+  <div>DJ &amp; Photo Booth &bull; Gallatin, TN &bull; 15+ Years, 900+ Events</div>
+  <div style="margin-top:7px;"><a href="https://as-ulikeit.com" target="_blank" rel="noopener">as-ulikeit.com</a></div>
+</footer>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" role="dialog" aria-label="Photo viewer">
+  <button class="lb-btn lb-close" id="lb-close" aria-label="Close">&#10005;</button>
+  <button class="lb-btn lb-prev" id="lb-prev" aria-label="Previous">&#8249;</button>
+  <img id="lb-img" src="" alt="Photo booth strip">
+  <a class="lb-btn lb-dl" id="lb-dl" download aria-label="Download this strip">&#11015;</a>
+  <button class="lb-btn lb-next" id="lb-next" aria-label="Next">&#8250;</button>
+  <div class="lb-caption" id="lb-caption"></div>
+</div>
+
+<script>
+  // Photo strips, in the order the booth captured them (10.10.2026).
+  var PHOTOS = [
+    "sw-001.jpg",
+    "sw-002.jpg",
+    "sw-003.jpg",
+    "sw-004.jpg",
+    "sw-005.jpg",
+    "sw-006.jpg",
+    "sw-007.jpg",
+    "sw-008.jpg",
+    "sw-009.jpg",
+    "sw-010.jpg",
+    "sw-011.jpg",
+    "sw-012.jpg",
+    "sw-013.jpg",
+    "sw-014.jpg",
+    "sw-015.jpg",
+    "sw-016.jpg",
+    "sw-017.jpg",
+    "sw-018.jpg",
+    "sw-019.jpg",
+    "sw-020.jpg",
+    "sw-021.jpg",
+    "sw-022.jpg",
+    "sw-023.jpg",
+    "sw-024.jpg",
+    "sw-025.jpg",
+    "sw-026.jpg",
+    "sw-027.jpg",
+    "sw-028.jpg",
+    "sw-029.jpg",
+    "sw-030.jpg",
+    "sw-031.jpg",
+    "sw-032.jpg",
+    "sw-033.jpg",
+    "sw-034.jpg",
+    "sw-035.jpg",
+    "sw-036.jpg",
+    "sw-037.jpg",
+    "sw-038.jpg",
+    "sw-039.jpg",
+    "sw-040.jpg",
+    "sw-041.jpg",
+    "sw-042.jpg",
+    "sw-043.jpg",
+    "sw-044.jpg",
+    "sw-045.jpg",
+    "sw-046.jpg",
+    "sw-047.jpg"
+  ];
+
+  var gallery = document.getElementById('gallery');
+  var lightbox = document.getElementById('lightbox');
+  var lbImg = document.getElementById('lb-img');
+  var lbCaption = document.getElementById('lb-caption');
+  var current = 0;
+
+  function pad(n) { return String(n).padStart(3, '0'); }
+
+  function render() {
+    gallery.innerHTML = '';
+    PHOTOS.forEach(function (name, i) {
+      var strip = document.createElement('div');
+      strip.className = 'strip';
+      strip.setAttribute('role', 'button');
+      strip.setAttribute('tabindex', '0');
+      strip.setAttribute('aria-label', 'Open strip ' + pad(i + 1));
+      var img = document.createElement('img');
+      img.loading = 'lazy';
+      img.src = 'web/' + name;
+      img.alt = 'Samantha & Wyatt photo booth strip ' + pad(i + 1);
+      strip.appendChild(img);
+      var tape = document.createElement('div');
+      tape.className = 'tape';
+      strip.appendChild(tape);
+      var num = document.createElement('div');
+      num.className = 'frame-num';
+      num.textContent = pad(i + 1);
+      strip.appendChild(num);
+      strip.addEventListener('click', function () { openLb(i); });
+      strip.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openLb(i); }
+      });
+      gallery.appendChild(strip);
+    });
+  }
+
+  function openLb(i) {
+    current = i;
+    lbImg.src = 'photos/' + PHOTOS[i];
+    var dl = document.getElementById('lb-dl');
+    dl.href = 'photos/' + PHOTOS[i];
+    dl.setAttribute('download', PHOTOS[i]);
+    lbCaption.textContent = 'Strip ' + pad(i + 1) + ' of ' + pad(PHOTOS.length);
+    lightbox.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeLb() {
+    lightbox.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+  function move(dir) {
+    current = (current + dir + PHOTOS.length) % PHOTOS.length;
+    openLb(current);
+  }
+
+  document.getElementById('lb-close').addEventListener('click', closeLb);
+  document.getElementById('lb-prev').addEventListener('click', function () { move(-1); });
+  document.getElementById('lb-next').addEventListener('click', function () { move(1); });
+  document.addEventListener('keydown', function (e) {
+    if (!lightbox.classList.contains('open')) return;
+    if (e.key === 'Escape') closeLb();
+    if (e.key === 'ArrowLeft') move(-1);
+    if (e.key === 'ArrowRight') move(1);
+  });
+  lightbox.addEventListener('click', function (e) {
+    if (e.target === lightbox) closeLb();
+  });
+
+  render();
+</script>
+</body>
+</html>
