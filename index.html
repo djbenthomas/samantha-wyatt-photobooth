@@ -1,354 +1,213 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Samantha &amp; Wyatt — Photo Booth Fun | AS·U·LIKE·IT Entertainment</title>
-<meta name="description" content="Relive the fun from Samantha &amp; Wyatt's wedding photo booth — 10.10.2026. Photos by AS·U·LIKE·IT Entertainment.">
-<meta property="og:title" content="Samantha &amp; Wyatt — Photo Booth Fun">
-<meta property="og:description" content="Their wedding photo booth memories — 10.10.2026. Photos by AS·U·LIKE·IT Entertainment.">
-<meta property="og:type" content="website">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Samantha &amp; Wyatt &middot; 10.10.2026</title>
+<meta name="description" content="Photo booth gallery from the wedding of Samantha &amp; Wyatt — October 10, 2026.">
 <style>
-  :root {
-    --ivory: #FBF8F1;
-    --cream: #F5EFE3;
-    --sage: #8A9A7B;
-    --sage-deep: #6E7F5F;
-    --sage-soft: #DCE3D3;
-    --gold: #B7935A;
-    --gold-light: #D9C08A;
-    --ink: #3A3532;
-    --ink-soft: #877F76;
-  }
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  html { scroll-behavior: smooth; }
-  body {
-    font-family: 'Jost', sans-serif;
-    background: var(--ivory);
-    color: var(--ink);
-    line-height: 1.65;
-    font-weight: 300;
-  }
-  .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+:root{
+  --ink:#12211a; --ink2:#1c3327; --cream:#f6f0e2; --cream2:#efe6d2;
+  --terra:#c05f2c; --terra2:#e08a4a; --sage:#7d9a7b; --gold:#c9a24a;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--ink);color:var(--cream);
+  font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+  -webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}
 
-  /* ---------- Header ---------- */
-  header {
-    text-align: center;
-    padding: 70px 20px 44px;
-    background: linear-gradient(180deg, #FBF8F1 0%, #F5EFE3 100%);
-    position: relative;
-    overflow: hidden;
-  }
-  .leaf { position: absolute; color: var(--sage); opacity: .38; font-size: 26px; }
-  .leaf.l1 { top: 30px; left: 7%; transform: rotate(-25deg); }
-  .leaf.l2 { top: 74px; left: 13%; transform: rotate(15deg); font-size: 18px; }
-  .leaf.r1 { top: 30px; right: 7%; transform: rotate(25deg); }
-  .leaf.r2 { top: 74px; right: 13%; transform: rotate(-15deg); font-size: 18px; }
-  .kicker {
-    font-size: 14px; letter-spacing: 5px; text-transform: uppercase;
-    color: var(--gold); font-weight: 500; margin-bottom: 14px;
-  }
-  .rule {
-    width: 130px; height: 1px;
-    background: linear-gradient(90deg, transparent, var(--gold-light), transparent);
-    margin: 16px auto 0; position: relative;
-  }
-  .rule::after {
-    content: "\25C6"; position: absolute; top: -10px; left: 50%;
-    transform: translateX(-50%); color: var(--gold); font-size: 9px;
-    background: var(--ivory); padding: 0 8px;
-  }
-  h1 {
-    font-family: 'Great Vibes', cursive;
-    font-size: clamp(54px, 9.5vw, 92px);
-    font-weight: 400; color: var(--ink); line-height: 1.05;
-  }
-  h1 span { color: var(--sage-deep); }
-  .date { margin-top: 6px; font-size: 17px; font-weight: 500; color: var(--gold); letter-spacing: 6px; }
-  .brand-pill {
-    display: inline-block; margin-top: 28px; padding: 10px 26px; border-radius: 999px;
-    background: #fff; border: 1px solid var(--gold-light);
-    box-shadow: 0 4px 16px rgba(183,147,90,.14);
-    font-size: 13.5px; font-weight: 400; color: var(--ink);
-    letter-spacing: 1.5px; text-transform: uppercase;
-  }
-  .brand-pill strong { color: var(--gold); font-weight: 600; }
+/* ---------- hero ---------- */
+.hero{position:relative;overflow:hidden;padding:clamp(44px,8vw,92px) 20px clamp(36px,5vw,64px);
+  text-align:center;background:
+    radial-gradient(1200px 600px at 50% -10%, #2b4a37 0%, transparent 60%),
+    linear-gradient(180deg,#16281f 0%,var(--ink) 100%);}
+.hero:before,.hero:after{content:"";position:absolute;pointer-events:none;opacity:.5;
+  width:260px;height:260px;border-radius:50%;filter:blur(60px)}
+.hero:before{background:#8a3f1c;left:-60px;top:-40px}
+.hero:after{background:#3f6b4d;right:-70px;top:40px}
+.hero-inner{position:relative;max-width:900px;margin:0 auto}
+.eyebrow{margin:0 0 14px;letter-spacing:.42em;text-transform:uppercase;
+  font-size:clamp(10px,1.5vw,13px);color:var(--gold)}
+.hero h1{margin:0;font-weight:400;line-height:.98;
+  font-size:clamp(40px,9.5vw,92px);letter-spacing:.01em;
+  display:flex;flex-direction:column;align-items:center}
+.hero h1 .nm{display:block}
+.hero h1 .amp{display:block;font-size:.44em;font-style:italic;line-height:1.15;
+  color:var(--gold);opacity:.92;transform:translateY(-.06em)}
+.rule{display:flex;align-items:center;gap:16px;justify-content:center;margin:22px auto 0;max-width:420px}
+.rule i{flex:1;height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
+.date{margin:0;font-size:clamp(15px,2.4vw,20px);letter-spacing:.3em;color:var(--cream2)}
+.sub{margin:24px auto 0;max-width:560px;color:#d6e0d7;font-size:15px;line-height:1.7}
+.sub b{color:var(--gold);font-weight:400}
+.cardwrap{margin:30px auto 0;display:inline-block;text-align:center}
+.hero .card{width:clamp(200px,26vw,268px);border-radius:14px;
+  box-shadow:0 24px 60px rgba(0,0,0,.5);border:1px solid rgba(246,240,226,.16);
+  transition:transform .5s cubic-bezier(.2,.7,.3,1)}
+.hero .card:hover{transform:translateY(-5px) rotate(-.7deg)}
+.cardcap{margin:14px 0 0;font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:var(--gold);opacity:.85}
+.scrollcue{margin:26px auto 0;display:block;width:1px;height:34px;
+  background:linear-gradient(180deg,transparent,var(--gold));opacity:.6}
 
-  /* ---------- Gallery ---------- */
-  .gallery-section { padding: 64px 20px 30px; }
-  .section-title {
-    text-align: center; font-family: 'Great Vibes', cursive;
-    font-size: clamp(36px, 5.5vw, 50px); font-weight: 400;
-    color: var(--sage-deep); margin-bottom: 4px;
-  }
-  .section-sub { text-align: center; color: var(--ink-soft); font-size: 14.5px; letter-spacing: 1px; margin-bottom: 32px; }
-  .download-wrap { text-align: center; margin-bottom: 64px; }
-  .download-btn {
-    display: inline-block; padding: 14px 32px; background: #fff; color: var(--ink);
-    text-decoration: none; font-weight: 500; font-size: 14.5px; letter-spacing: 1px;
-    border-radius: 999px; border: 1px solid var(--gold-light);
-    box-shadow: 0 6px 20px rgba(183,147,90,.16);
-    transition: transform .2s, box-shadow .2s, background .2s;
-  }
-  .download-btn:hover { transform: translateY(-2px); box-shadow: 0 10px 26px rgba(183,147,90,.28); background: #FFFDF8; }
-  .download-alt {
-    display: inline-block; margin-top: 14px; font-size: 13px; color: var(--sage-deep);
-    text-decoration: none; border-bottom: 1px solid rgba(110,127,95,.4); padding-bottom: 1px;
-  }
-  .download-alt:hover { border-color: var(--sage-deep); }
-  .download-note { margin-top: 9px; font-size: 12px; color: var(--ink-soft); letter-spacing: .5px; }
-  .gallery { columns: 2; column-gap: 22px; max-width: 1040px; margin: 0 auto; }
-  @media (min-width: 700px)  { .gallery { columns: 2; column-gap: 34px; } }
-  @media (min-width: 1024px) { .gallery { columns: 3; column-gap: 48px; max-width: 1060px; } }
-  .strip {
-    display: inline-block; width: 100%; margin-bottom: 34px; break-inside: avoid;
-    cursor: pointer; border-radius: 10px; overflow: hidden; background: #fff;
-    padding: 9px 9px 32px; box-shadow: 0 6px 20px rgba(58,53,50,.10);
-    border: 1px solid #EDE6D8; transition: transform .25s ease, box-shadow .25s ease;
-    position: relative;
-  }
-  .strip:nth-child(3n) { transform: rotate(1.1deg); }
-  .strip:nth-child(3n+1) { transform: rotate(-.9deg); }
-  .strip:hover { transform: rotate(0deg) scale(1.03); box-shadow: 0 12px 30px rgba(58,53,50,.18); }
-  .strip img { width: 100%; height: auto; display: block; border-radius: 5px; background: #f2efe8; }
-  .strip .frame-num {
-    position: absolute; bottom: 9px; left: 0; right: 0; text-align: center;
-    font-size: 11.5px; color: var(--ink-soft); letter-spacing: 2px;
-  }
-  .strip .tape {
-    position: absolute; top: -8px; left: 50%;
-    transform: translateX(-50%) rotate(-3deg); width: 70px; height: 19px;
-    background: rgba(220,227,211,.75);
-    border-left: 1px dashed rgba(255,255,255,.85);
-    border-right: 1px dashed rgba(255,255,255,.85);
-    z-index: 2;
-  }
+/* ---------- sections ---------- */
+section{padding:clamp(40px,5vw,68px) 20px}
+.wrap{max-width:1180px;margin:0 auto}
+.sechead{text-align:center;margin-bottom:clamp(28px,5vw,52px)}
+.sechead:before{content:"";display:block;width:64px;height:1px;margin:0 auto 22px;
+  background:linear-gradient(90deg,transparent,var(--gold),transparent)}
+.sechead h2{margin:0;font-weight:400;font-size:clamp(24px,4vw,38px);letter-spacing:.02em}
+.sechead p{margin:12px 0 0;color:#a7b9a9;font-size:13px;letter-spacing:.14em;text-transform:uppercase}
 
-  /* ---------- Lightbox ---------- */
-  .lightbox {
-    position: fixed; inset: 0; background: rgba(38,36,32,.95); display: none;
-    align-items: center; justify-content: center; z-index: 100; padding: 20px;
-  }
-  .lightbox.open { display: flex; }
-  .lightbox img {
-    max-width: min(90vw, 400px); max-height: 86vh; border-radius: 10px;
-    box-shadow: 0 20px 60px rgba(0,0,0,.55); background: #fff; padding: 10px 10px 44px;
-  }
-  .lb-btn {
-    position: absolute; background: rgba(255,255,255,.13); border: none; color: #fff;
-    font-size: 26px; width: 52px; height: 52px; border-radius: 50%; cursor: pointer;
-    transition: background .2s; display: flex; align-items: center; justify-content: center; line-height: 1;
-  }
-  .lb-btn:hover { background: rgba(255,255,255,.3); }
-  .lb-close { top: 18px; right: 18px; }
-  .lb-dl { top: 84px; right: 18px; text-decoration: none; font-size: 20px; }
-  .lb-prev { left: 14px; top: 50%; transform: translateY(-50%); }
-  .lb-next { right: 14px; top: 50%; transform: translateY(-50%); }
-  @media (min-width: 640px) { .lb-prev { left: 6%; } .lb-next { right: 6%; } }
-  .lb-caption {
-    position: absolute; bottom: 18px; left: 0; right: 0; text-align: center;
-    color: rgba(255,255,255,.85); font-size: 13px; letter-spacing: 2px;
-  }
+.grid{display:grid;gap:12px;
+  grid-template-columns:repeat(auto-fill,minmax(190px,1fr))}
+.shot{position:relative;overflow:hidden;border-radius:12px;background:#0d1a13;
+  border:1px solid rgba(246,240,226,.08);cursor:zoom-in;
+  transition:transform .35s cubic-bezier(.2,.7,.3,1),box-shadow .35s,border-color .35s}
+.shot img{width:100%;height:100%;object-fit:cover;aspect-ratio:3/2;
+  transition:transform .5s cubic-bezier(.2,.7,.3,1)}
+.shot:hover{transform:translateY(-4px);border-color:rgba(201,162,74,.55);
+  box-shadow:0 18px 40px rgba(0,0,0,.5)}
+.shot:hover img{transform:scale(1.05)}
 
-  /* ---------- Review CTA ---------- */
-  .review-section {
-    margin: 76px auto 0; max-width: 1060px; padding: 54px 24px;
-    background: linear-gradient(135deg, var(--sage-soft) 0%, #F1EADB 100%);
-    border-radius: 20px; text-align: center; border: 1px solid var(--gold-light);
-  }
-  .review-section h2 { font-family: 'Great Vibes', cursive; font-size: clamp(40px, 6vw, 54px); font-weight: 400; color: var(--ink); }
-  .review-section p { max-width: 500px; margin: 10px auto 28px; color: var(--ink-soft); font-size: 15px; }
-  .review-btn {
-    display: inline-block; padding: 15px 38px; background: var(--sage-deep); color: #fff;
-    text-decoration: none; font-weight: 500; font-size: 15px; border-radius: 999px;
-    letter-spacing: 1.5px; text-transform: uppercase;
-    box-shadow: 0 8px 24px rgba(110,127,95,.38);
-    transition: transform .2s, box-shadow .2s;
-  }
-  .review-btn:hover { transform: translateY(-2px); box-shadow: 0 12px 30px rgba(110,127,95,.48); }
+.strips{display:grid;gap:18px;grid-template-columns:repeat(auto-fill,minmax(150px,1fr))}
+.stripcard{display:block;border-radius:10px;overflow:hidden;background:#0d1a13;
+  border:1px solid rgba(246,240,226,.08);transition:transform .35s,box-shadow .35s,border-color .35s}
+.stripcard:hover{transform:translateY(-5px) rotate(-.8deg);border-color:rgba(201,162,74,.55);
+  box-shadow:0 22px 44px rgba(0,0,0,.55)}
+.stripcard img{width:100%}
 
-  /* ---------- Footer ---------- */
-  footer { text-align: center; padding: 46px 20px 56px; color: var(--ink-soft); font-size: 13.5px; letter-spacing: .8px; }
-  footer .co-name { font-weight: 500; color: var(--gold); font-size: 15px; letter-spacing: 3px; text-transform: uppercase; }
-  footer .divider { margin: 12px auto; width: 60px; height: 1px; background: var(--gold-light); }
-  footer a { color: var(--sage-deep); text-decoration: none; font-weight: 500; }
-  footer a:hover { text-decoration: underline; }
-  .loading { text-align: center; padding: 60px 0; color: var(--ink-soft); }
+/* ---------- footer ---------- */
+footer{padding:64px 20px 80px;text-align:center;background:#0e1b14;
+  border-top:1px solid rgba(246,240,226,.09)}
+footer .name{font-size:22px;letter-spacing:.1em;color:var(--cream)}
+footer .cred{margin-top:14px;color:#8ea394;font-size:13.5px;line-height:1.9}
+footer a{color:var(--terra2);text-decoration:none;border-bottom:1px solid rgba(224,138,74,.4)}
+.top{display:inline-block;margin-top:26px;font-size:12px;letter-spacing:.22em;
+  text-transform:uppercase;color:#9fb2a3;text-decoration:none;border:0}
+
+/* ---------- lightbox ---------- */
+#lb{position:fixed;inset:0;background:rgba(6,14,10,.96);display:none;
+  align-items:center;justify-content:center;z-index:99;padding:24px}
+#lb.on{display:flex}
+#lb img{max-width:min(92vw,900px);max-height:82vh;border-radius:10px;
+  box-shadow:0 30px 80px rgba(0,0,0,.7)}
+#lb button{position:absolute;background:rgba(246,240,226,.08);color:var(--cream);
+  border:1px solid rgba(246,240,226,.18);width:52px;height:52px;border-radius:50%;
+  font-size:24px;cursor:pointer;display:grid;place-items:center;transition:.25s}
+#lb button:hover{background:rgba(201,162,74,.28);border-color:var(--gold)}
+#prev{left:3vw} #next{right:3vw} #close{top:3vh;right:3vw}
+#count{position:absolute;bottom:3vh;left:50%;transform:translateX(-50%);
+  color:#9fb2a3;font-size:13px;letter-spacing:.2em}
+@media(max-width:640px){.grid{grid-template-columns:repeat(2,1fr);gap:8px}
+  #prev{left:8px} #next{right:8px}}
 </style>
 </head>
 <body>
 
-<header>
-  <span class="leaf l1">&#10087;</span><span class="leaf l2">&#10087;</span>
-  <span class="leaf r1">&#10087;</span><span class="leaf r2">&#10087;</span>
-  <div class="container">
-    <div class="kicker">The Wedding Of</div>
-    <h1>Samantha <span>&amp;</span> Wyatt</h1>
-    <div class="rule"></div>
-    <div class="date">10.10.2026</div>
-    <div class="brand-pill">Photos by <strong>AS&middot;U&middot;LIKE&middot;IT Entertainment</strong></div>
+<header class="hero">
+  <div class="hero-inner">
+    <p class="eyebrow">The Wedding Of</p>
+    <h1><span class="nm">Samantha</span><span class="amp">&amp;</span><span class="nm">Wyatt</span></h1>
+    <div class="rule"><i></i><span class="date">10 &middot; 10 &middot; 2026</span><i></i></div>
+    <p class="sub">Every laugh, every pose &mdash; all <b>141</b> moments caught in the booth.
+      Thanks for celebrating with us. Here&rsquo;s the whole night, one frame at a time.</p>
+    <div class="cardwrap">
+      <img class="card" src="assets/card.png" alt="Samantha &amp; Wyatt, 10.10.2026">
+      <p class="cardcap">The Booth Keepsake</p>
+    </div>
+    <span class="scrollcue" aria-hidden="true"></span>
   </div>
 </header>
 
-<section class="gallery-section">
-  <h2 class="section-title">The Photo Booth Fun</h2>
-  <p class="section-sub">Tap a strip to relive the moment</p>
-  <div class="download-wrap">
-    <a class="download-btn" href="downloads/samantha-wyatt-photo-strips.zip" download>&#128229; Download All 46 Strips</a>
-    <div class="download-note">Full quality &bull; ~12 &bull; best on WiFi &mdash; or tap any strip and hit the download arrow</div>
-    <a class="download-alt" href="downloads/samantha-wyatt-individual-photos.zip" download>&#11015; also grab all 138 individual photos (~6)</a>
-  </div>
-  <div class="gallery" id="gallery">
-    <div class="loading">Gathering the memories&hellip;</div>
-  </div>
-</section>
+<main>
+  <section id="photos">
+    <div class="wrap">
+      <div class="sechead">
+        <h2>Inside the Booth</h2>
+        <p>141 photos &middot; tap any photo to enlarge</p>
+      </div>
+      <div class="grid"><a class="shot" href="photos/s001_1.jpg" data-i="0" data-strip="1" data-frame="1"><img loading="lazy" src="photos/s001_1.jpg" alt="Samantha &amp; Wyatt photo booth, frame 1"></a><a class="shot" href="photos/s001_2.jpg" data-i="1" data-strip="1" data-frame="2"><img loading="lazy" src="photos/s001_2.jpg" alt="Samantha &amp; Wyatt photo booth, frame 2"></a><a class="shot" href="photos/s001_3.jpg" data-i="2" data-strip="1" data-frame="3"><img loading="lazy" src="photos/s001_3.jpg" alt="Samantha &amp; Wyatt photo booth, frame 3"></a><a class="shot" href="photos/s002_1.jpg" data-i="3" data-strip="2" data-frame="1"><img loading="lazy" src="photos/s002_1.jpg" alt="Samantha &amp; Wyatt photo booth, frame 1"></a><a class="shot" href="photos/s002_2.jpg" data-i="4" data-strip="2" data-frame="2"><img loading="lazy" src="photos/s002_2.jpg" alt="Samantha &amp; Wyatt photo booth, frame 2"></a><a class="shot" href="photos/s002_3.jpg" data-i="5" data-strip="2" data-frame="3"><img loading="lazy" src="photos/s002_3.jpg" alt="Samantha &amp; Wyatt photo booth, frame 3"></a><a class="shot" href="photos/s003_1.jpg" data-i="6" data-strip="3" data-frame="1"><img loading="lazy" src="photos/s003_1.jpg" alt="Samantha &amp; Wyatt photo booth, frame 1"></a><a class="shot" href="photos/s003_2.jpg" data-i="7" data-strip="3" data-frame="2"><img loading="lazy" src="photos/s003_2.jpg" alt="Samantha &amp; Wyatt photo booth, frame 2"></a><a class="shot" href="photos/s003_3.jpg" data-i="8" data-strip="3" data-frame="3"><img loading="lazy" src="photos/s003_3.jpg" alt="Samantha &amp; Wyatt photo booth, frame 3"></a><a class="shot" href="photos/s004_1.jpg" data-i="9" data-strip="4" data-frame="1"><img loading="lazy" src="photos/s004_1.jpg" alt="Samantha &amp; Wyatt photo booth, frame 1"></a><a class="shot" href="photos/s004_2.jpg" data-i="10" data-strip="4" data-frame="2"><img loading="lazy" src="photos/s004_2.jpg" alt="Samantha &amp; Wyatt photo booth, frame 2"></a><a class="shot" href="photos/s004_3.jpg" data-i="11" data-strip="4" data-frame="3"><img loading="lazy" src="photos/s004_3.jpg" alt="Samantha &amp; Wyatt photo booth, frame 3"></a><a class="shot" href="photos/s005_1.jpg" data-i="12" data-strip="5" data-frame="1"><img loading="lazy" src="photos/s005_1.jpg" alt="Samantha &amp; Wyatt photo booth, frame 1"></a><a class="shot" href="photos/s005_2.jpg" data-i="13" data-strip="5" data-frame="2"><img loading="lazy" src="photos/s005_2.jpg" alt="Samantha &amp; Wyatt photo booth, frame 2"></a><a class="shot" href="photos/s005_3.jpg" data-i="14" data-strip="5" data-frame="3"><img loading="lazy" src="photos/s005_3.jpg" alt="Samantha &amp; Wyatt photo booth, frame 3"></a><a class="shot" href="photos/s006_1.jpg" data-i="15" data-strip="6" data-frame="1"><img loading="lazy" src="photos/s006_1.jpg" alt="Samantha &amp; Wyatt photo booth, frame 1"></a><a class="shot" href="photos/s006_2.jpg" data-i="16" data-strip="6" data-frame="2"><img loading="lazy" src="photos/s006_2.jpg" alt="Samantha &amp; Wyatt photo booth, frame 2"></a><a class="shot" href="photos/s006_3.jpg" data-i="17" data-strip="6" data-frame="3"><img loading="lazy" src="photos/s006_3.jpg" alt="Samantha &amp; Wyatt photo booth, frame 3"></a><a class="shot" href="photos/s007_1.jpg" data-i="18" data-strip="7" data-frame="1"><img loading="lazy" src="photos/s007_1.jpg" alt="Samantha &amp; Wyatt photo booth, frame 1"></a><a class="shot" href="photos/s007_2.jpg" data-i="19" data-strip="7" data-frame="2"><img loading="lazy" src="photos/s007_2.jpg" alt="Samantha &amp; Wyatt photo booth, frame 2"></a><a class="shot" href="photos/s007_3.jpg" data-i="20" data-strip="7" data-frame="3"><img loading="lazy" src="photos/s007_3.jpg" alt="Samantha &amp; Wyatt photo booth, frame 3"></a><a class="shot" href="photos/s008_1.jpg" data-i="21" data-strip="8" data-frame="1"><img loading="lazy" src="photos/s008_1.jpg" alt="Samantha &amp; Wyatt photo booth, frame 1"></a><a class="shot" href="photos/s008_2.jpg" data-i="22" data-strip="8" data-frame="2"><img loading="lazy" src="photos/s008_2.jpg" alt="Samantha &amp; Wyatt photo booth, frame 2"></a><a class="shot" href="photos/s008_3.jpg" data-i="23" data-strip="8" data-frame="3"><img loading="lazy" src="photos/s008_3.jpg" alt="Samantha &amp; Wyatt photo booth, frame 3"></a><a class="shot" href="photos/s009_1.jpg" data-i="24" data-strip="9" data-frame="1"><img loading="lazy" src="photos/s009_1.jpg" alt="Samantha &amp; Wyatt photo booth, frame 1"></a><a class="shot" href="photos/s009_2.jpg" data-i="25" data-strip="9" data-frame="2"><img loading="lazy" src="photos/s009_2.jpg" alt="Samantha &amp; Wyatt photo booth, frame 2"></a><a class="shot" href="photos/s009_3.jpg" data-i="26" data-strip="9" data-frame="3"><img loading="lazy" src="photos/s009_3.jpg" alt="Samantha &amp; Wyatt photo booth, frame 3"></a><a class="shot" href="photos/s010_1.jpg" data-i="27" data-strip="10" data-frame="1"><img loading="lazy" src="photos/s010_1.jpg" alt="Samantha &amp; Wyatt photo booth, frame 1"></a><a class="shot" href="photos/s010_2.jpg" data-i="28" data-strip="10" data-frame="2"><img loading="lazy" src="photos/s010_2.jpg" alt="Samantha &amp; Wyatt photo booth, frame 2"></a><a class="shot" href="photos/s010_3.jpg" data-i="29" data-strip="10" data-frame="3"><img loading="lazy" src="photos/s010_3.jpg" alt="Samantha &amp; Wyatt photo booth, frame 3"></a><a class="shot" href="photos/s011_1.jpg" data-i="30" data-strip="11" data-frame="1"><img loading="lazy" src="photos/s011_1.jpg" alt="Samantha &amp; Wyatt photo booth, frame 1"></a><a class="shot" href="photos/s011_2.jpg" data-i="31" data-strip="11" data-frame="2"><img loading="lazy" src="photos/s011_2.jpg" alt="Samantha &amp; Wyatt photo booth, frame 2"></a><a class="shot" href="photos/s011_3.jpg" data-i="32" data-strip="11" data-frame="3"><img loading="lazy" src="photos/s011_3.jpg" alt="Samantha &amp; Wyatt photo booth, frame 3"></a><a class="shot" href="photos/s012_1.jpg" data-i="33" data-strip="12" data-frame="1"><img loading="lazy" src="photos/s012_1.jpg" alt="Samantha &amp; Wyatt photo booth, frame 1"></a><a class="shot" href="photos/s012_2.jpg" data-i="34" data-strip="12" data-frame="2"><img loading="lazy" src="photos/s012_2.jpg" alt="Samantha &amp; Wyatt photo booth, frame 2"></a><a class="shot" href="photos/s012_3.jpg" data-i="35" data-strip="12" data-frame="3"><img loading="lazy" src="photos/s012_3.jpg" alt="Samantha &amp; Wyatt photo booth, frame 3"></a><a class="shot" href="photos/s013_1.jpg" data-i="36" data-strip="13" data-frame="1"><img loading="lazy" src="photos/s013_1.jpg" alt="Samantha &amp; Wyatt photo booth, frame 1"></a><a class="shot" href="photos/s013_2.jpg" data-i="37" data-strip="13" data-frame="2"><img loading="lazy" src="photos/s013_2.jpg" alt="Samantha &amp; Wyatt photo booth, frame 2"></a><a class="shot" href="photos/s013_3.jpg" data-i="38" data-strip="13" data-frame="3"><img loading="lazy" src="photos/s013_3.jpg" alt="Samantha &amp; Wyatt photo booth, frame 3"></a><a class="shot" href="photos/s014_1.jpg" data-i="39" data-strip="14" data-frame="1"><img loading="lazy" src="photos/s014_1.jpg" alt="Samantha &amp; Wyatt photo booth, frame 1"></a><a class="shot" href="photos/s014_2.jpg" data-i="40" data-strip="14" data-frame="2"><img loading="lazy" src="photos/s014_2.jpg" alt="Samantha &amp; Wyatt photo booth, frame 2"></a><a class="shot" href="photos/s014_3.jpg" data-i="41" data-strip="14" data-frame="3"><img loading="lazy" src="photos/s014_3.jpg" alt="Samantha &amp; Wyatt photo booth, frame 3"></a><a class="shot" href="photos/s015_1.jpg" data-i="42" data-strip="15" data-frame="1"><img loading="lazy" src="photos/s015_1.jpg" alt="Samantha &amp; Wyatt photo booth, frame 1"></a><a class="shot" href="photos/s015_2.jpg" data-i="43" data-strip="15" data-frame="2"><img loading="lazy" src="photos/s015_2.jpg" alt="Samantha &amp; Wyatt photo booth, frame 2"></a><a class="shot" href="photos/s015_3.jpg" data-i="44" data-strip="15" data-frame="3"><img loading="lazy" src="photos/s015_3.jpg" alt="Samantha &amp; Wyatt photo booth, frame 3"></a><a class="shot" href="photos/s016_1.jpg" data-i="45" data-strip="16" data-frame="1"><img loading="lazy" src="photos/s016_1.jpg" alt="Samantha &amp; Wyatt photo booth, frame 1"></a><a class="shot" href="photos/s016_2.jpg" data-i="46" data-strip="16" data-frame="2"><img loading="lazy" src="photos/s016_2.jpg" alt="Samantha &amp; Wyatt photo booth, frame 2"></a><a class="shot" href="photos/s016_3.jpg" data-i="47" data-strip="16" data-frame="3"><img loading="lazy" src="photos/s016_3.jpg" alt="Samantha &amp; Wyatt photo booth, frame 3"></a><a class="shot" href="photos/s017_1.jpg" data-i="48" data-strip="17" data-frame="1"><img loading="lazy" src="photos/s017_1.jpg" alt="Samantha &amp; Wyatt photo booth, frame 1"></a><a class="shot" href="photos/s017_2.jpg" data-i="49" data-strip="17" data-frame="2"><img loading="lazy" src="photos/s017_2.jpg" alt="Samantha &amp; Wyatt photo booth, frame 2"></a><a class="shot" href="photos/s017_3.jpg" data-i="50" data-strip="17" data-frame="3"><img loading="lazy" src="photos/s017_3.jpg" alt="Samantha &amp; Wyatt photo booth, frame 3"></a><a class="shot" href="photos/s018_1.jpg" data-i="51" data-strip="18" data-frame="1"><img loading="lazy" src="photos/s018_1.jpg" alt="Samantha &amp; Wyatt photo booth, frame 1"></a><a class="shot" href="photos/s018_2.jpg" data-i="52" data-strip="18" data-frame="2"><img loading="lazy" src="photos/s018_2.jpg" alt="Samantha &amp; Wyatt photo booth, frame 2"></a><a class="shot" href="photos/s018_3.jpg" data-i="53" data-strip="18" data-frame="3"><img loading="lazy" src="photos/s018_3.jpg" alt="Samantha &amp; Wyatt photo booth, frame 3"></a><a class="shot" href="photos/s019_1.jpg" data-i="54" data-strip="19" data-frame="1"><img loading="lazy" src="photos/s019_1.jpg" alt="Samantha &amp; Wyatt photo booth, frame 1"></a><a class="shot" href="photos/s019_2.jpg" data-i="55" data-strip="19" data-frame="2"><img loading="lazy" src="photos/s019_2.jpg" alt="Samantha &amp; Wyatt photo booth, frame 2"></a><a class="shot" href="photos/s019_3.jpg" data-i="56" data-strip="19" data-frame="3"><img loading="lazy" src="photos/s019_3.jpg" alt="Samantha &amp; Wyatt photo booth, frame 3"></a><a class="shot" href="photos/s020_1.jpg" data-i="57" data-strip="20" data-frame="1"><img loading="lazy" src="photos/s020_1.jpg" alt="Samantha &amp; Wyatt photo booth, frame 1"></a><a class="shot" href="photos/s020_2.jpg" data-i="58" data-strip="20" data-frame="2"><img loading="lazy" src="photos/s020_2.jpg" alt="Samantha &amp; Wyatt photo booth, frame 2"></a><a class="shot" href="photos/s020_3.jpg" data-i="59" data-strip="20" data-frame="3"><img loading="lazy" src="photos/s020_3.jpg" alt="Samantha &amp; Wyatt photo booth, frame 3"></a><a class="shot" href="photos/s021_1.jpg" data-i="60" data-strip="21" data-frame="1"><img loading="lazy" src="photos/s021_1.jpg" alt="Samantha &amp; Wyatt photo booth, frame 1"></a><a class="shot" href="photos/s021_2.jpg" data-i="61" data-strip="21" data-frame="2"><img loading="lazy" src="photos/s021_2.jpg" alt="Samantha &amp; Wyatt photo booth, frame 2"></a><a class="shot" href="photos/s021_3.jpg" data-i="62" data-strip="21" data-frame="3"><img loading="lazy" src="photos/s021_3.jpg" alt="Samantha &amp; Wyatt photo booth, frame 3"></a><a class="shot" href="photos/s022_1.jpg" data-i="63" data-strip="22" data-frame="1"><img loading="lazy" src="photos/s022_1.jpg" alt="Samantha &amp; Wyatt photo booth, frame 1"></a><a class="shot" href="photos/s022_2.jpg" data-i="64" data-strip="22" data-frame="2"><img loading="lazy" src="photos/s022_2.jpg" alt="Samantha &amp; Wyatt photo booth, frame 2"></a><a class="shot" href="photos/s022_3.jpg" data-i="65" data-strip="22" data-frame="3"><img loading="lazy" src="photos/s022_3.jpg" alt="Samantha &amp; Wyatt photo booth, frame 3"></a><a class="shot" href="photos/s023_1.jpg" data-i="66" data-strip="23" data-frame="1"><img loading="lazy" src="photos/s023_1.jpg" alt="Samantha &amp; Wyatt photo booth, frame 1"></a><a class="shot" href="photos/s023_2.jpg" data-i="67" data-strip="23" data-frame="2"><img loading="lazy" src="photos/s023_2.jpg" alt="Samantha &amp; Wyatt photo booth, frame 2"></a><a class="shot" href="photos/s023_3.jpg" data-i="68" data-strip="23" data-frame="3"><img loading="lazy" src="photos/s023_3.jpg" alt="Samantha &amp; Wyatt photo booth, frame 3"></a><a class="shot" href="photos/s024_1.jpg" data-i="69" data-strip="24" data-frame="1"><img loading="lazy" src="photos/s024_1.jpg" alt="Samantha &amp; Wyatt photo booth, frame 1"></a><a class="shot" href="photos/s024_2.jpg" data-i="70" data-strip="24" data-frame="2"><img loading="lazy" src="photos/s024_2.jpg" alt="Samantha &amp; Wyatt photo booth, frame 2"></a><a class="shot" href="photos/s024_3.jpg" data-i="71" data-strip="24" data-frame="3"><img loading="lazy" src="photos/s024_3.jpg" alt="Samantha &amp; Wyatt photo booth, frame 3"></a><a class="shot" href="photos/s025_1.jpg" data-i="72" data-strip="25" data-frame="1"><img loading="lazy" src="photos/s025_1.jpg" alt="Samantha &amp; Wyatt photo booth, frame 1"></a><a class="shot" href="photos/s025_2.jpg" data-i="73" data-strip="25" data-frame="2"><img loading="lazy" src="photos/s025_2.jpg" alt="Samantha &amp; Wyatt photo booth, frame 2"></a><a class="shot" href="photos/s025_3.jpg" data-i="74" data-strip="25" data-frame="3"><img loading="lazy" src="photos/s025_3.jpg" alt="Samantha &amp; Wyatt photo booth, frame 3"></a><a class="shot" href="photos/s026_1.jpg" data-i="75" data-strip="26" data-frame="1"><img loading="lazy" src="photos/s026_1.jpg" alt="Samantha &amp; Wyatt photo booth, frame 1"></a><a class="shot" href="photos/s026_2.jpg" data-i="76" data-strip="26" data-frame="2"><img loading="lazy" src="photos/s026_2.jpg" alt="Samantha &amp; Wyatt photo booth, frame 2"></a><a class="shot" href="photos/s026_3.jpg" data-i="77" data-strip="26" data-frame="3"><img loading="lazy" src="photos/s026_3.jpg" alt="Samantha &amp; Wyatt photo booth, frame 3"></a><a class="shot" href="photos/s027_1.jpg" data-i="78" data-strip="27" data-frame="1"><img loading="lazy" src="photos/s027_1.jpg" alt="Samantha &amp; Wyatt photo booth, frame 1"></a><a class="shot" href="photos/s027_2.jpg" data-i="79" data-strip="27" data-frame="2"><img loading="lazy" src="photos/s027_2.jpg" alt="Samantha &amp; Wyatt photo booth, frame 2"></a><a class="shot" href="photos/s027_3.jpg" data-i="80" data-strip="27" data-frame="3"><img loading="lazy" src="photos/s027_3.jpg" alt="Samantha &amp; Wyatt photo booth, frame 3"></a><a class="shot" href="photos/s028_1.jpg" data-i="81" data-strip="28" data-frame="1"><img loading="lazy" src="photos/s028_1.jpg" alt="Samantha &amp; Wyatt photo booth, frame 1"></a><a class="shot" href="photos/s028_2.jpg" data-i="82" data-strip="28" data-frame="2"><img loading="lazy" src="photos/s028_2.jpg" alt="Samantha &amp; Wyatt photo booth, frame 2"></a><a class="shot" href="photos/s028_3.jpg" data-i="83" data-strip="28" data-frame="3"><img loading="lazy" src="photos/s028_3.jpg" alt="Samantha &amp; Wyatt photo booth, frame 3"></a><a class="shot" href="photos/s029_1.jpg" data-i="84" data-strip="29" data-frame="1"><img loading="lazy" src="photos/s029_1.jpg" alt="Samantha &amp; Wyatt photo booth, frame 1"></a><a class="shot" href="photos/s029_2.jpg" data-i="85" data-strip="29" data-frame="2"><img loading="lazy" src="photos/s029_2.jpg" alt="Samantha &amp; Wyatt photo booth, frame 2"></a><a class="shot" href="photos/s029_3.jpg" data-i="86" data-strip="29" data-frame="3"><img loading="lazy" src="photos/s029_3.jpg" alt="Samantha &amp; Wyatt photo booth, frame 3"></a><a class="shot" href="photos/s030_1.jpg" data-i="87" data-strip="30" data-frame="1"><img loading="lazy" src="photos/s030_1.jpg" alt="Samantha &amp; Wyatt photo booth, frame 1"></a><a class="shot" href="photos/s030_2.jpg" data-i="88" data-strip="30" data-frame="2"><img loading="lazy" src="photos/s030_2.jpg" alt="Samantha &amp; Wyatt photo booth, frame 2"></a><a class="shot" href="photos/s030_3.jpg" data-i="89" data-strip="30" data-frame="3"><img loading="lazy" src="photos/s030_3.jpg" alt="Samantha &amp; Wyatt photo booth, frame 3"></a><a class="shot" href="photos/s031_1.jpg" data-i="90" data-strip="31" data-frame="1"><img loading="lazy" src="photos/s031_1.jpg" alt="Samantha &amp; Wyatt photo booth, frame 1"></a><a class="shot" href="photos/s031_2.jpg" data-i="91" data-strip="31" data-frame="2"><img loading="lazy" src="photos/s031_2.jpg" alt="Samantha &amp; Wyatt photo booth, frame 2"></a><a class="shot" href="photos/s031_3.jpg" data-i="92" data-strip="31" data-frame="3"><img loading="lazy" src="photos/s031_3.jpg" alt="Samantha &amp; Wyatt photo booth, frame 3"></a><a class="shot" href="photos/s032_1.jpg" data-i="93" data-strip="32" data-frame="1"><img loading="lazy" src="photos/s032_1.jpg" alt="Samantha &amp; Wyatt photo booth, frame 1"></a><a class="shot" href="photos/s032_2.jpg" data-i="94" data-strip="32" data-frame="2"><img loading="lazy" src="photos/s032_2.jpg" alt="Samantha &amp; Wyatt photo booth, frame 2"></a><a class="shot" href="photos/s032_3.jpg" data-i="95" data-strip="32" data-frame="3"><img loading="lazy" src="photos/s032_3.jpg" alt="Samantha &amp; Wyatt photo booth, frame 3"></a><a class="shot" href="photos/s033_1.jpg" data-i="96" data-strip="33" data-frame="1"><img loading="lazy" src="photos/s033_1.jpg" alt="Samantha &amp; Wyatt photo booth, frame 1"></a><a class="shot" href="photos/s033_2.jpg" data-i="97" data-strip="33" data-frame="2"><img loading="lazy" src="photos/s033_2.jpg" alt="Samantha &amp; Wyatt photo booth, frame 2"></a><a class="shot" href="photos/s033_3.jpg" data-i="98" data-strip="33" data-frame="3"><img loading="lazy" src="photos/s033_3.jpg" alt="Samantha &amp; Wyatt photo booth, frame 3"></a><a class="shot" href="photos/s034_1.jpg" data-i="99" data-strip="34" data-frame="1"><img loading="lazy" src="photos/s034_1.jpg" alt="Samantha &amp; Wyatt photo booth, frame 1"></a><a class="shot" href="photos/s034_2.jpg" data-i="100" data-strip="34" data-frame="2"><img loading="lazy" src="photos/s034_2.jpg" alt="Samantha &amp; Wyatt photo booth, frame 2"></a><a class="shot" href="photos/s034_3.jpg" data-i="101" data-strip="34" data-frame="3"><img loading="lazy" src="photos/s034_3.jpg" alt="Samantha &amp; Wyatt photo booth, frame 3"></a><a class="shot" href="photos/s035_1.jpg" data-i="102" data-strip="35" data-frame="1"><img loading="lazy" src="photos/s035_1.jpg" alt="Samantha &amp; Wyatt photo booth, frame 1"></a><a class="shot" href="photos/s035_2.jpg" data-i="103" data-strip="35" data-frame="2"><img loading="lazy" src="photos/s035_2.jpg" alt="Samantha &amp; Wyatt photo booth, frame 2"></a><a class="shot" href="photos/s035_3.jpg" data-i="104" data-strip="35" data-frame="3"><img loading="lazy" src="photos/s035_3.jpg" alt="Samantha &amp; Wyatt photo booth, frame 3"></a><a class="shot" href="photos/s036_1.jpg" data-i="105" data-strip="36" data-frame="1"><img loading="lazy" src="photos/s036_1.jpg" alt="Samantha &amp; Wyatt photo booth, frame 1"></a><a class="shot" href="photos/s036_2.jpg" data-i="106" data-strip="36" data-frame="2"><img loading="lazy" src="photos/s036_2.jpg" alt="Samantha &amp; Wyatt photo booth, frame 2"></a><a class="shot" href="photos/s036_3.jpg" data-i="107" data-strip="36" data-frame="3"><img loading="lazy" src="photos/s036_3.jpg" alt="Samantha &amp; Wyatt photo booth, frame 3"></a><a class="shot" href="photos/s037_1.jpg" data-i="108" data-strip="37" data-frame="1"><img loading="lazy" src="photos/s037_1.jpg" alt="Samantha &amp; Wyatt photo booth, frame 1"></a><a class="shot" href="photos/s037_2.jpg" data-i="109" data-strip="37" data-frame="2"><img loading="lazy" src="photos/s037_2.jpg" alt="Samantha &amp; Wyatt photo booth, frame 2"></a><a class="shot" href="photos/s037_3.jpg" data-i="110" data-strip="37" data-frame="3"><img loading="lazy" src="photos/s037_3.jpg" alt="Samantha &amp; Wyatt photo booth, frame 3"></a><a class="shot" href="photos/s038_1.jpg" data-i="111" data-strip="38" data-frame="1"><img loading="lazy" src="photos/s038_1.jpg" alt="Samantha &amp; Wyatt photo booth, frame 1"></a><a class="shot" href="photos/s038_2.jpg" data-i="112" data-strip="38" data-frame="2"><img loading="lazy" src="photos/s038_2.jpg" alt="Samantha &amp; Wyatt photo booth, frame 2"></a><a class="shot" href="photos/s038_3.jpg" data-i="113" data-strip="38" data-frame="3"><img loading="lazy" src="photos/s038_3.jpg" alt="Samantha &amp; Wyatt photo booth, frame 3"></a><a class="shot" href="photos/s039_1.jpg" data-i="114" data-strip="39" data-frame="1"><img loading="lazy" src="photos/s039_1.jpg" alt="Samantha &amp; Wyatt photo booth, frame 1"></a><a class="shot" href="photos/s039_2.jpg" data-i="115" data-strip="39" data-frame="2"><img loading="lazy" src="photos/s039_2.jpg" alt="Samantha &amp; Wyatt photo booth, frame 2"></a><a class="shot" href="photos/s039_3.jpg" data-i="116" data-strip="39" data-frame="3"><img loading="lazy" src="photos/s039_3.jpg" alt="Samantha &amp; Wyatt photo booth, frame 3"></a><a class="shot" href="photos/s040_1.jpg" data-i="117" data-strip="40" data-frame="1"><img loading="lazy" src="photos/s040_1.jpg" alt="Samantha &amp; Wyatt photo booth, frame 1"></a><a class="shot" href="photos/s040_2.jpg" data-i="118" data-strip="40" data-frame="2"><img loading="lazy" src="photos/s040_2.jpg" alt="Samantha &amp; Wyatt photo booth, frame 2"></a><a class="shot" href="photos/s040_3.jpg" data-i="119" data-strip="40" data-frame="3"><img loading="lazy" src="photos/s040_3.jpg" alt="Samantha &amp; Wyatt photo booth, frame 3"></a><a class="shot" href="photos/s041_1.jpg" data-i="120" data-strip="41" data-frame="1"><img loading="lazy" src="photos/s041_1.jpg" alt="Samantha &amp; Wyatt photo booth, frame 1"></a><a class="shot" href="photos/s041_2.jpg" data-i="121" data-strip="41" data-frame="2"><img loading="lazy" src="photos/s041_2.jpg" alt="Samantha &amp; Wyatt photo booth, frame 2"></a><a class="shot" href="photos/s041_3.jpg" data-i="122" data-strip="41" data-frame="3"><img loading="lazy" src="photos/s041_3.jpg" alt="Samantha &amp; Wyatt photo booth, frame 3"></a><a class="shot" href="photos/s042_1.jpg" data-i="123" data-strip="42" data-frame="1"><img loading="lazy" src="photos/s042_1.jpg" alt="Samantha &amp; Wyatt photo booth, frame 1"></a><a class="shot" href="photos/s042_2.jpg" data-i="124" data-strip="42" data-frame="2"><img loading="lazy" src="photos/s042_2.jpg" alt="Samantha &amp; Wyatt photo booth, frame 2"></a><a class="shot" href="photos/s042_3.jpg" data-i="125" data-strip="42" data-frame="3"><img loading="lazy" src="photos/s042_3.jpg" alt="Samantha &amp; Wyatt photo booth, frame 3"></a><a class="shot" href="photos/s043_1.jpg" data-i="126" data-strip="43" data-frame="1"><img loading="lazy" src="photos/s043_1.jpg" alt="Samantha &amp; Wyatt photo booth, frame 1"></a><a class="shot" href="photos/s043_2.jpg" data-i="127" data-strip="43" data-frame="2"><img loading="lazy" src="photos/s043_2.jpg" alt="Samantha &amp; Wyatt photo booth, frame 2"></a><a class="shot" href="photos/s043_3.jpg" data-i="128" data-strip="43" data-frame="3"><img loading="lazy" src="photos/s043_3.jpg" alt="Samantha &amp; Wyatt photo booth, frame 3"></a><a class="shot" href="photos/s044_1.jpg" data-i="129" data-strip="44" data-frame="1"><img loading="lazy" src="photos/s044_1.jpg" alt="Samantha &amp; Wyatt photo booth, frame 1"></a><a class="shot" href="photos/s044_2.jpg" data-i="130" data-strip="44" data-frame="2"><img loading="lazy" src="photos/s044_2.jpg" alt="Samantha &amp; Wyatt photo booth, frame 2"></a><a class="shot" href="photos/s044_3.jpg" data-i="131" data-strip="44" data-frame="3"><img loading="lazy" src="photos/s044_3.jpg" alt="Samantha &amp; Wyatt photo booth, frame 3"></a><a class="shot" href="photos/s045_1.jpg" data-i="132" data-strip="45" data-frame="1"><img loading="lazy" src="photos/s045_1.jpg" alt="Samantha &amp; Wyatt photo booth, frame 1"></a><a class="shot" href="photos/s045_2.jpg" data-i="133" data-strip="45" data-frame="2"><img loading="lazy" src="photos/s045_2.jpg" alt="Samantha &amp; Wyatt photo booth, frame 2"></a><a class="shot" href="photos/s045_3.jpg" data-i="134" data-strip="45" data-frame="3"><img loading="lazy" src="photos/s045_3.jpg" alt="Samantha &amp; Wyatt photo booth, frame 3"></a><a class="shot" href="photos/s046_1.jpg" data-i="135" data-strip="46" data-frame="1"><img loading="lazy" src="photos/s046_1.jpg" alt="Samantha &amp; Wyatt photo booth, frame 1"></a><a class="shot" href="photos/s046_2.jpg" data-i="136" data-strip="46" data-frame="2"><img loading="lazy" src="photos/s046_2.jpg" alt="Samantha &amp; Wyatt photo booth, frame 2"></a><a class="shot" href="photos/s046_3.jpg" data-i="137" data-strip="46" data-frame="3"><img loading="lazy" src="photos/s046_3.jpg" alt="Samantha &amp; Wyatt photo booth, frame 3"></a><a class="shot" href="photos/s047_1.jpg" data-i="138" data-strip="47" data-frame="1"><img loading="lazy" src="photos/s047_1.jpg" alt="Samantha &amp; Wyatt photo booth, frame 1"></a><a class="shot" href="photos/s047_2.jpg" data-i="139" data-strip="47" data-frame="2"><img loading="lazy" src="photos/s047_2.jpg" alt="Samantha &amp; Wyatt photo booth, frame 2"></a><a class="shot" href="photos/s047_3.jpg" data-i="140" data-strip="47" data-frame="3"><img loading="lazy" src="photos/s047_3.jpg" alt="Samantha &amp; Wyatt photo booth, frame 3"></a></div>
+    </div>
+  </section>
 
-<section class="review-section" id="review">
-  <h2>Had Fun in the Booth?</h2>
-  <p>We&rsquo;d love to hear about it! A quick review helps a local, family-owned business keep doing what we love &mdash; and it means the world to us.</p>
-  <a class="review-btn" id="review-link" href="https://g.page/r/CcLgV_9vp3nnEBM/review" target="_blank" rel="noopener">Leave a Review</a>
+  <section id="strips" style="background:#16281f">
+    <div class="wrap">
+      <div class="sechead">
+        <h2>The Strips</h2>
+        <p>47 keepsake strips &middot; 141 moments</p>
+      </div>
+      <div class="strips"><a class="stripcard" href="strips/s001.jpg"><img loading="lazy" src="strips/s001.jpg" alt="Photo booth strip 1"></a><a class="stripcard" href="strips/s002.jpg"><img loading="lazy" src="strips/s002.jpg" alt="Photo booth strip 2"></a><a class="stripcard" href="strips/s003.jpg"><img loading="lazy" src="strips/s003.jpg" alt="Photo booth strip 3"></a><a class="stripcard" href="strips/s004.jpg"><img loading="lazy" src="strips/s004.jpg" alt="Photo booth strip 4"></a><a class="stripcard" href="strips/s005.jpg"><img loading="lazy" src="strips/s005.jpg" alt="Photo booth strip 5"></a><a class="stripcard" href="strips/s006.jpg"><img loading="lazy" src="strips/s006.jpg" alt="Photo booth strip 6"></a><a class="stripcard" href="strips/s007.jpg"><img loading="lazy" src="strips/s007.jpg" alt="Photo booth strip 7"></a><a class="stripcard" href="strips/s008.jpg"><img loading="lazy" src="strips/s008.jpg" alt="Photo booth strip 8"></a><a class="stripcard" href="strips/s009.jpg"><img loading="lazy" src="strips/s009.jpg" alt="Photo booth strip 9"></a><a class="stripcard" href="strips/s010.jpg"><img loading="lazy" src="strips/s010.jpg" alt="Photo booth strip 10"></a><a class="stripcard" href="strips/s011.jpg"><img loading="lazy" src="strips/s011.jpg" alt="Photo booth strip 11"></a><a class="stripcard" href="strips/s012.jpg"><img loading="lazy" src="strips/s012.jpg" alt="Photo booth strip 12"></a><a class="stripcard" href="strips/s013.jpg"><img loading="lazy" src="strips/s013.jpg" alt="Photo booth strip 13"></a><a class="stripcard" href="strips/s014.jpg"><img loading="lazy" src="strips/s014.jpg" alt="Photo booth strip 14"></a><a class="stripcard" href="strips/s015.jpg"><img loading="lazy" src="strips/s015.jpg" alt="Photo booth strip 15"></a><a class="stripcard" href="strips/s016.jpg"><img loading="lazy" src="strips/s016.jpg" alt="Photo booth strip 16"></a><a class="stripcard" href="strips/s017.jpg"><img loading="lazy" src="strips/s017.jpg" alt="Photo booth strip 17"></a><a class="stripcard" href="strips/s018.jpg"><img loading="lazy" src="strips/s018.jpg" alt="Photo booth strip 18"></a><a class="stripcard" href="strips/s019.jpg"><img loading="lazy" src="strips/s019.jpg" alt="Photo booth strip 19"></a><a class="stripcard" href="strips/s020.jpg"><img loading="lazy" src="strips/s020.jpg" alt="Photo booth strip 20"></a><a class="stripcard" href="strips/s021.jpg"><img loading="lazy" src="strips/s021.jpg" alt="Photo booth strip 21"></a><a class="stripcard" href="strips/s022.jpg"><img loading="lazy" src="strips/s022.jpg" alt="Photo booth strip 22"></a><a class="stripcard" href="strips/s023.jpg"><img loading="lazy" src="strips/s023.jpg" alt="Photo booth strip 23"></a><a class="stripcard" href="strips/s024.jpg"><img loading="lazy" src="strips/s024.jpg" alt="Photo booth strip 24"></a><a class="stripcard" href="strips/s025.jpg"><img loading="lazy" src="strips/s025.jpg" alt="Photo booth strip 25"></a><a class="stripcard" href="strips/s026.jpg"><img loading="lazy" src="strips/s026.jpg" alt="Photo booth strip 26"></a><a class="stripcard" href="strips/s027.jpg"><img loading="lazy" src="strips/s027.jpg" alt="Photo booth strip 27"></a><a class="stripcard" href="strips/s028.jpg"><img loading="lazy" src="strips/s028.jpg" alt="Photo booth strip 28"></a><a class="stripcard" href="strips/s029.jpg"><img loading="lazy" src="strips/s029.jpg" alt="Photo booth strip 29"></a><a class="stripcard" href="strips/s030.jpg"><img loading="lazy" src="strips/s030.jpg" alt="Photo booth strip 30"></a><a class="stripcard" href="strips/s031.jpg"><img loading="lazy" src="strips/s031.jpg" alt="Photo booth strip 31"></a><a class="stripcard" href="strips/s032.jpg"><img loading="lazy" src="strips/s032.jpg" alt="Photo booth strip 32"></a><a class="stripcard" href="strips/s033.jpg"><img loading="lazy" src="strips/s033.jpg" alt="Photo booth strip 33"></a><a class="stripcard" href="strips/s034.jpg"><img loading="lazy" src="strips/s034.jpg" alt="Photo booth strip 34"></a><a class="stripcard" href="strips/s035.jpg"><img loading="lazy" src="strips/s035.jpg" alt="Photo booth strip 35"></a><a class="stripcard" href="strips/s036.jpg"><img loading="lazy" src="strips/s036.jpg" alt="Photo booth strip 36"></a><a class="stripcard" href="strips/s037.jpg"><img loading="lazy" src="strips/s037.jpg" alt="Photo booth strip 37"></a><a class="stripcard" href="strips/s038.jpg"><img loading="lazy" src="strips/s038.jpg" alt="Photo booth strip 38"></a><a class="stripcard" href="strips/s039.jpg"><img loading="lazy" src="strips/s039.jpg" alt="Photo booth strip 39"></a><a class="stripcard" href="strips/s040.jpg"><img loading="lazy" src="strips/s040.jpg" alt="Photo booth strip 40"></a><a class="stripcard" href="strips/s041.jpg"><img loading="lazy" src="strips/s041.jpg" alt="Photo booth strip 41"></a><a class="stripcard" href="strips/s042.jpg"><img loading="lazy" src="strips/s042.jpg" alt="Photo booth strip 42"></a><a class="stripcard" href="strips/s043.jpg"><img loading="lazy" src="strips/s043.jpg" alt="Photo booth strip 43"></a><a class="stripcard" href="strips/s044.jpg"><img loading="lazy" src="strips/s044.jpg" alt="Photo booth strip 44"></a><a class="stripcard" href="strips/s045.jpg"><img loading="lazy" src="strips/s045.jpg" alt="Photo booth strip 45"></a><a class="stripcard" href="strips/s046.jpg"><img loading="lazy" src="strips/s046.jpg" alt="Photo booth strip 46"></a><a class="stripcard" href="strips/s047.jpg"><img loading="lazy" src="strips/s047.jpg" alt="Photo booth strip 47"></a></div>
+    </div>
+  </section>
+</main>
+
+<!-- review-ask -->
+<style>
+  .revask { background:#16281f; text-align:center; padding:52px 20px 54px;
+    border-top:1px solid rgba(128,110,80,.22); }
+  .revask .rk-eyebrow { margin:0 0 12px; font-size:10.5px; letter-spacing:.34em;
+    text-transform:uppercase; color:#c9a24a; }
+  .revask h2 { margin:0 0 12px; font-weight:400; font-size:clamp(22px,3.4vw,31px);
+    color:#f6f0e2; line-height:1.2; }
+  .revask p { margin:0 auto 24px; max-width:500px; font-size:14px; line-height:1.7; color:#b9c7bb; }
+  .revask a.rk-btn { display:inline-block; background:#c9a24a; color:#12211a;
+    text-decoration:none; padding:14px 30px; border-radius:999px; font-size:11.5px;
+    letter-spacing:.2em; text-transform:uppercase; font-weight:600;
+    transition:transform .2s, filter .2s; }
+  .revask a.rk-btn:hover { transform:translateY(-2px); filter:brightness(1.08); }
+</style>
+<section class="revask">
+  <p class="rk-eyebrow">One Small Favor</p>
+  <h2>Did the booth make your night?</h2>
+  <p>A 30-second Google review is the whole marketing budget around here &mdash;
+     it&rsquo;s how the next couple finds us.</p>
+  <a class="rk-btn" href="https://g.page/r/CcLgV_5vp3nnEBM/review" target="_blank" rel="noopener">&#9733; Leave a Review</a>
 </section>
 
 <footer>
-  <div class="co-name">AS&middot;U&middot;LIKE&middot;IT Entertainment</div>
-  <div class="divider"></div>
-  <div>DJ &amp; Photo Booth &bull; Gallatin, TN &bull; 15+ Years, 900+ Events</div>
-  <div style="margin-top:7px;"><a href="https://as-ulikeit.com" target="_blank" rel="noopener">as-ulikeit.com</a></div>
+  <div class="name">Samantha <span style="color:#e08a4a">&amp;</span> Wyatt</div>
+  <div class="cred">
+    October 10, 2026<br>
+    Photo booth by <a href="https://as-ulikeit.com" target="_blank" rel="noopener">AS&middot;U&middot;LIKE&middot;IT Entertainment</a>
+  </div>
+  <a class="top" href="#">&uarr; Back to top</a>
 </footer>
 
-<!-- Lightbox -->
-<div class="lightbox" id="lightbox" role="dialog" aria-label="Photo viewer">
-  <button class="lb-btn lb-close" id="lb-close" aria-label="Close">&#10005;</button>
-  <button class="lb-btn lb-prev" id="lb-prev" aria-label="Previous">&#8249;</button>
-  <img id="lb-img" src="" alt="Photo booth strip">
-  <a class="lb-btn lb-dl" id="lb-dl" download aria-label="Download this strip">&#11015;</a>
-  <button class="lb-btn lb-next" id="lb-next" aria-label="Next">&#8250;</button>
-  <div class="lb-caption" id="lb-caption"></div>
+<div id="lb" role="dialog" aria-modal="true" aria-label="Photo viewer">
+  <button id="prev" aria-label="Previous">&#8249;</button>
+  <img id="lbimg" alt="">
+  <button id="next" aria-label="Next">&#8250;</button>
+  <button id="close" aria-label="Close">&#10005;</button>
+  <div id="count"></div>
 </div>
 
 <script>
-  // Photo strips, in the order the booth captured them (10.10.2026).
-  var PHOTOS = [
-    "sw-001.jpg",
-    "sw-002.jpg",
-    "sw-003.jpg",
-    "sw-004.jpg",
-    "sw-005.jpg",
-    "sw-006.jpg",
-    "sw-007.jpg",
-    "sw-008.jpg",
-    "sw-009.jpg",
-    "sw-010.jpg",
-    "sw-011.jpg",
-    "sw-012.jpg",
-    "sw-013.jpg",
-    "sw-014.jpg",
-    "sw-015.jpg",
-    "sw-016.jpg",
-    "sw-017.jpg",
-    "sw-018.jpg",
-    "sw-019.jpg",
-    "sw-020.jpg",
-    "sw-021.jpg",
-    "sw-022.jpg",
-    "sw-023.jpg",
-    "sw-024.jpg",
-    "sw-025.jpg",
-    "sw-026.jpg",
-    "sw-027.jpg",
-    "sw-028.jpg",
-    "sw-029.jpg",
-    "sw-030.jpg",
-    "sw-031.jpg",
-    "sw-032.jpg",
-    "sw-033.jpg",
-    "sw-034.jpg",
-    "sw-035.jpg",
-    "sw-036.jpg",
-    "sw-037.jpg",
-    "sw-038.jpg",
-    "sw-039.jpg",
-    "sw-040.jpg",
-    "sw-041.jpg",
-    "sw-042.jpg",
-    "sw-043.jpg",
-    "sw-044.jpg",
-    "sw-045.jpg",
-    "sw-046.jpg"
-  ];
-
-  var gallery = document.getElementById('gallery');
-  var lightbox = document.getElementById('lightbox');
-  var lbImg = document.getElementById('lb-img');
-  var lbCaption = document.getElementById('lb-caption');
-  var current = 0;
-
-  function pad(n) { return String(n).padStart(3, '0'); }
-
-  function render() {
-    gallery.innerHTML = '';
-    PHOTOS.forEach(function (name, i) {
-      var strip = document.createElement('div');
-      strip.className = 'strip';
-      strip.setAttribute('role', 'button');
-      strip.setAttribute('tabindex', '0');
-      strip.setAttribute('aria-label', 'Open strip ' + pad(i + 1));
-      var img = document.createElement('img');
-      img.loading = 'lazy';
-      img.src = 'web/' + name;
-      img.alt = 'Samantha & Wyatt photo booth strip ' + pad(i + 1);
-      strip.appendChild(img);
-      var tape = document.createElement('div');
-      tape.className = 'tape';
-      strip.appendChild(tape);
-      var num = document.createElement('div');
-      num.className = 'frame-num';
-      num.textContent = pad(i + 1);
-      strip.appendChild(num);
-      strip.addEventListener('click', function () { openLb(i); });
-      strip.addEventListener('keydown', function (e) {
-        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openLb(i); }
-      });
-      gallery.appendChild(strip);
-    });
-  }
-
-  function openLb(i) {
-    current = i;
-    lbImg.src = 'photos/' + PHOTOS[i];
-    var dl = document.getElementById('lb-dl');
-    dl.href = 'photos/' + PHOTOS[i];
-    dl.setAttribute('download', PHOTOS[i]);
-    lbCaption.textContent = 'Strip ' + pad(i + 1) + ' of ' + pad(PHOTOS.length);
-    lightbox.classList.add('open');
-    document.body.style.overflow = 'hidden';
-  }
-  function closeLb() {
-    lightbox.classList.remove('open');
-    document.body.style.overflow = '';
-  }
-  function move(dir) {
-    current = (current + dir + PHOTOS.length) % PHOTOS.length;
-    openLb(current);
-  }
-
-  document.getElementById('lb-close').addEventListener('click', closeLb);
-  document.getElementById('lb-prev').addEventListener('click', function () { move(-1); });
-  document.getElementById('lb-next').addEventListener('click', function () { move(1); });
-  document.addEventListener('keydown', function (e) {
-    if (!lightbox.classList.contains('open')) return;
-    if (e.key === 'Escape') closeLb();
-    if (e.key === 'ArrowLeft') move(-1);
-    if (e.key === 'ArrowRight') move(1);
-  });
-  lightbox.addEventListener('click', function (e) {
-    if (e.target === lightbox) closeLb();
-  });
-
-  render();
+const shots=[...document.querySelectorAll('.shot')];
+const lb=document.getElementById('lb'),lbimg=document.getElementById('lbimg'),cnt=document.getElementById('count');
+let cur=0;
+function show(i){
+  cur=(i+shots.length)%shots.length;
+  lbimg.src=shots[cur].getAttribute('href');
+  cnt.textContent=(cur+1)+' / '+shots.length;
+  lb.classList.add('on');
+  document.body.style.overflow='hidden';
+}
+function hide(){lb.classList.remove('on');document.body.style.overflow='';}
+shots.forEach(s=>s.addEventListener('click',e=>{e.preventDefault();show(+s.dataset.i);}));
+document.getElementById('prev').onclick=e=>{e.stopPropagation();show(cur-1);};
+document.getElementById('next').onclick=e=>{e.stopPropagation();show(cur+1);};
+document.getElementById('close').onclick=hide;
+lb.addEventListener('click',e=>{if(e.target===lb)hide();});
+document.addEventListener('keydown',e=>{
+  if(!lb.classList.contains('on'))return;
+  if(e.key==='Escape')hide(); if(e.key==='ArrowLeft')show(cur-1); if(e.key==='ArrowRight')show(cur+1);
+});
+let sx=null;
+lb.addEventListener('touchstart',e=>sx=e.touches[0].clientX,{passive:true});
+lb.addEventListener('touchend',e=>{
+  if(sx===null)return; const dx=e.changedTouches[0].clientX-sx;
+  if(Math.abs(dx)>50) show(dx<0?cur+1:cur-1); sx=null;
+},{passive:true});
 </script>
 </body>
 </html>
